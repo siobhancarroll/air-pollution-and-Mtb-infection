@@ -1,0 +1,20 @@
+# Code-only repository: ignore everything by default, then allow code back in.
+*
+!*/
+!*.R
+!.gitignore
+!.gitattributes
+!README.md
+!LICENSE
+!*.Rproj
+
+# Never track these folders, even if they contain .R files
+/Data/
+/archive/
+/logs/
+/tables_and_figures/
+/Claude outputs/
+/Manuscript and Supplement/
+/Manuscript_and_Supplement/
+/Supervision Slides/
+.Rproj.user/
